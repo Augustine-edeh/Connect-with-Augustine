@@ -1,6 +1,6 @@
 const Avatar = () => {
   return (
-    <picture className="p-1.5 rounded-full mb-8 shadow-2xl shadow-off_black ">
+    <picture className="mt-10 p-0.5 rounded-full mb-8 shadow-2xl shadow-green/10">
       <img
         src={"Augustine.jpeg"}
         alt="Augstine-img"
