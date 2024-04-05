@@ -1,12 +1,12 @@
-import Avatar from "./Avatar";
+import Avatar from "./components/Avatar";
+import Name from "./components/Name";
 
 const App = () => {
   return (
     <div className="grid place-items-center h-screen bg-off_black">
       <main className="grid place-items-center bg-dark_grey text-white p-5 rounded-xl">
         <Avatar />
-        <p>Name</p>
-
+        <Name />
         <p>Location</p>
 
         <p>Description</p>
