@@ -1,17 +1,18 @@
 import Avatar from "./components/Avatar";
 import Description from "./components/Description";
+import Links from "./components/Links";
 import Location from "./components/Location";
 import Name from "./components/Name";
 
 const App = () => {
   return (
-    <div className="grid place-items-center h-screen bg-off_black">
+    <div className="grid place-items-center min-h-screen bg-off_black px-5 py-10">
       <main className="grid place-items-center bg-dark_grey text-white p-5 rounded-xl">
         <Avatar />
         <Name />
         <Location />
         <Description />
-        <div>links</div>
+        <Links />
       </main>
     </div>
   );
