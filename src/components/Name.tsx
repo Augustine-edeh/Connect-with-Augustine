@@ -1,5 +1,7 @@
 const Name = () => {
-  return <div>Augustine Edeh</div>;
+  return (
+    <div className="text-white font-bold text-3xl mb-2">Augustine Edeh</div>
+  );
 };
 
 export default Name;
