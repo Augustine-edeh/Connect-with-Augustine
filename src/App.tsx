@@ -1,4 +1,5 @@
 import Avatar from "./components/Avatar";
+import Description from "./components/Description";
 import Location from "./components/Location";
 import Name from "./components/Name";
 
@@ -9,8 +10,7 @@ const App = () => {
         <Avatar />
         <Name />
         <Location />
-        <p>Description</p>
-
+        <Description />
         <div>links</div>
       </main>
     </div>
