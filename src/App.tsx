@@ -1,4 +1,5 @@
 import Avatar from "./components/Avatar";
+import Location from "./components/Location";
 import Name from "./components/Name";
 
 const App = () => {
@@ -7,8 +8,7 @@ const App = () => {
       <main className="grid place-items-center bg-dark_grey text-white p-5 rounded-xl">
         <Avatar />
         <Name />
-        <p>Location</p>
-
+        <Location />
         <p>Description</p>
 
         <div>links</div>
