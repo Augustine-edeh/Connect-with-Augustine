@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 import SocialLinks from "../../public/data/SocialLinks";
 
 const Links = () => {
