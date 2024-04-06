@@ -1,28 +1,11 @@
 import { useState, useEffect } from "react";
 
+import SocialLinks from "../../public/data/SocialLinks";
+
 const Links = () => {
-  const [socialLinks, setSocialLinks] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("../../public/data/socialLinks.json");
-        if (!response.ok) {
-          throw new Error("Failed to fetch data");
-        }
-        const data = await response.json();
-        setSocialLinks(data);
-      } catch (error) {
-        console.error("Error fetching social-links data:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
   return (
     <ul className="w-full">
-      {socialLinks.map(({ name, url, key }) => (
+      {SocialLinks.map(({ name, url, key }) => (
         <a
           href={url}
           key={key}
