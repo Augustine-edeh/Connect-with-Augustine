@@ -9,7 +9,13 @@ export default {
       dark_grey: "hsl(0,0%,12%)",
       off_black: "hsl(0,0%,8%)",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        InterRegular: ["Inter-Regular"],
+        InterSemiBold: ["Inter-SemiBold"],
+        InterBold: ["Inter-Bold"],
+      },
+    },
   },
   plugins: [],
 };

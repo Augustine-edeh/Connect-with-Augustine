@@ -1,6 +1,8 @@
 const Name = () => {
   return (
-    <div className="text-white font-bold text-3xl mb-3.5">Augustine Edeh</div>
+    <div className="text-white font-InterBold text-3xl mb-3">
+      Augustine Edeh
+    </div>
   );
 };
 

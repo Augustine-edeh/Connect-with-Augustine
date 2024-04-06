@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular"),
+    url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: local("Inter-SemiBold"),
+    url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: local("Inter-Bold"),
+    url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
