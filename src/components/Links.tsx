@@ -6,9 +6,14 @@ const Links = () => {
       {SocialLinks.map(({ name, url, key }) => (
         <li
           key={key}
-          className="outline-none font-InterSemiBold active:text-off_black hover:text-off_black hover:bg-green focus:bg-green focus:text-off_black bg-grey text-center rounded-xl py-3.5 my-5"
+          className="flex font-InterSemiBold rounded-xl overflow-hidden my-5"
         >
-          <a href={url}>{name}</a>
+          <a
+            href={url}
+            className="outline-none rounded-xl bg-grey active:text-off_black hover:text-off_black hover:bg-green focus:bg-green focus:text-off_black w-full h-full py-3.5 text-center"
+          >
+            {name}
+          </a>
         </li>
       ))}
     </ul>

@@ -6,8 +6,8 @@ import Name from "./components/Name";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-off_black px-5 py-10">
-      <main className="grid place-items-center bg-dark_grey text-white p-4 rounded-xl max-w-md mx-auto">
+    <div className="flex justify-center items-center min-h-screen bg-off_black p-6">
+      <main className="grid place-items-center bg-dark_grey text-white px-5 py-10 rounded-xl max-w-md">
         <Avatar />
         <Name />
         <Location />
