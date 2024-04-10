@@ -10,7 +10,7 @@ const Links = () => {
         >
           <a
             href={url}
-            className="outline-none rounded-xl bg-grey active:text-off_black hover:text-off_black hover:bg-green focus:bg-green focus:text-off_black w-full h-full py-3.5 text-center"
+            className="outline-none rounded-xl bg-grey active:text-off_black hover:text-off_black hover:bg-green focus:bg-green focus:text-off_black w-full h-full py-3.5 text-center transition-all"
           >
             {name}
           </a>
