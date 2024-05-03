@@ -27,7 +27,7 @@ const SocialLinks = [
   },
   {
     name: "Personal Portfolio",
-    url: "https://augustine_edeh.vercel.app",
+    url: "https://augustines.vercel.app",
     icon: "portfolio-icon.svg",
     key: 5,
   },
